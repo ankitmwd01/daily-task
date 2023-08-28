@@ -1,0 +1,71 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.task-list {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-input input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.completion-percentage {
+  margin-top: 20px;
+  font-size: 18px;
+}
